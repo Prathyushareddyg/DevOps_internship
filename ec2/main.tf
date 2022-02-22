@@ -20,7 +20,7 @@ resource "aws_subnet" "subnet_1" {
 }
 
 resource "aws_instance" "instance_1" {
-  ami           = "ami-08e4e35cccc6189f4" 
+  ami           = "ami-033b95fb8079dc481" 
   instance_type = "t2.micro"
   subnet_id = aws_subnet.subnet_1.id
 }
